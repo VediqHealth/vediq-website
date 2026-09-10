@@ -13,7 +13,7 @@ export default function DemoPage() {
         <div className="intro">
           <span>Request a demo</span>
           <h2>See Vediq in<br />your workflow.</h2>
-          <p>Request a focused walkthrough of the Vediq sidecar and command center. We&apos;ll discuss your organization, current EHR workflow and value-based care priorities.</p>
+          <p>Request a focused walkthrough of the Vediq Companion and Command Center. We&apos;ll discuss your organization, current EHR workflow and value-based care priorities.</p>
         </div>
 
         <DemoForm />

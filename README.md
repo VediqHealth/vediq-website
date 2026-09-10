@@ -1,6 +1,6 @@
 # Vediq Website
 
-Marketing site for Vediq — an AI-powered command center and point-of-care sidecar for value-based care, supporting Traditional Medicare (ACO REACH, LEAD, MSSP), Medicare Advantage, and Medicaid Managed Care programs.
+Marketing site for Vediq — an AI-powered command center and point-of-care Companion for value-based care, supporting Traditional Medicare (ACO REACH, LEAD, MSSP), Medicare Advantage, and Medicaid Managed Care programs.
 
 ## Stack
 

@@ -22,7 +22,7 @@ export default function Footer() {
         </div>
         <div>
           <small>Explore</small>
-          <Link href="/#sidecar">Sidecar</Link>
+          <Link href="/#companion">Companion</Link>
           <Link href="/#command">Command center</Link>
           <Link href="/#who-we-are">Who We Are</Link>
         </div>

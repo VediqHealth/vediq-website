@@ -13,7 +13,7 @@ export default function Header() {
         <div className="nav-right" id="main-navigation">
           <nav className="desktop-nav" aria-label="Main navigation">
             <div className="nav-item">
-              <Link href="/#sidecar" className="nav-trigger">
+              <Link href="/#companion" className="nav-trigger">
                 Products
                 <svg className="caret" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                   <path d="M1 1L5 5L9 1" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
@@ -21,8 +21,8 @@ export default function Header() {
               </Link>
               <div className="dropdown">
                 <div className="dropdown-panel">
-                  <Link href="/#sidecar">
-                    <strong>Point-of-care sidecar</strong>
+                  <Link href="/#companion">
+                    <strong>Point-of-care Companion</strong>
                     <small>Ambient RAF recapture, gap closure and coding support at the encounter</small>
                   </Link>
                   <Link href="/#command">
