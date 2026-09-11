@@ -1,14 +1,24 @@
+'use client';
+
 import Link from 'next/link';
+import { useState } from 'react';
 
 export default function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
-    <header className="top">
+    <header className="top" onClick={(event) => {
+      if (event.target instanceof Element && event.target.closest('a')) {
+        setMenuOpen(false);
+      }
+    }}>
       <div className="shell nav">
         <Link className="logo" href="/">
           Vediq<i>●</i>
         </Link>
 
-        <input type="checkbox" id="nav-toggle" className="nav-toggle-input" />
+        <input type="checkbox" id="nav-toggle" className="nav-toggle-input"
+          checked={menuOpen} onChange={(event) => setMenuOpen(event.target.checked)} />
 
         <div className="nav-right" id="main-navigation">
           <nav className="desktop-nav" aria-label="Main navigation">
