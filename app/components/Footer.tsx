@@ -22,8 +22,8 @@ export default function Footer() {
         </div>
         <div>
           <small>Explore</small>
-          <Link href="/#companion">Companion</Link>
-          <Link href="/#command">Command center</Link>
+          <Link href="/#companion">Vediq Companion</Link>
+          <Link href="/#command">Vediq Command Center</Link>
           <Link href="/#who-we-are">Who We Are</Link>
         </div>
       </div>

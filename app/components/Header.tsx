@@ -22,11 +22,11 @@ export default function Header() {
               <div className="dropdown">
                 <div className="dropdown-panel">
                   <Link href="/#companion">
-                    <strong>Point-of-care Companion</strong>
+                    <strong>Vediq Companion</strong>
                     <small>Ambient RAF recapture, gap closure and coding support at the encounter</small>
                   </Link>
                   <Link href="/#command">
-                    <strong>Management command center</strong>
+                    <strong>Vediq Command Center</strong>
                     <small>Retrospective analytics, work management and scheduling</small>
                   </Link>
                 </div>
